@@ -1,0 +1,42 @@
+body{
+    
+}
+
+#header{
+	background: #7C3238;
+    height: 150px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+}
+
+.logo{
+	height: 150px;
+    
+}
+
+.navbar{
+    padding: 0;
+    margin: 0;
+    height: 150px;
+    flex: 6;
+}
+
+.logo a img{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item{
+	padding: 5px;
+	display: inline-block;
+	list-style-type: none;
+
+}
+
+ul .nav-item a{
+	text-decoration: none;
+    color: white;
+}
