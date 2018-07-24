@@ -8,8 +8,9 @@
 }
 
 /* Hide the images by default */
-.slides {
+.slide {
     display: none;
+    width: 500px;
 }
 
 /* Next & previous buttons */
@@ -92,10 +93,18 @@
   to {opacity: 1}
 }
 
-.button {
-    display: none;
+.slideshow-container .slide span{
+  display: none;
+  position:absolute;
+  left: 200px;
+  top: 
+  
 }
 
-.slides:hover + .button:hover {
+.slideshow-container .slide:hover img {
     display: inline-block;
+}
+
+.slideshow-container .slide:hover span{
+  display: table-cell;
 }
