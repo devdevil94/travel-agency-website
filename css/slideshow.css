@@ -2,15 +2,16 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+    max-width: 100%;
+    position: relative;
+    margin: auto;
 }
 
 /* Hide the images by default */
 .slide {
     display: none;
-    width: 500px;
+    max-width: 700px;
+    margin: auto;
 }
 
 /* Next & previous buttons */
@@ -97,7 +98,6 @@
   display: none;
   position:absolute;
   left: 200px;
-  top: 
   
 }
 
@@ -107,4 +107,12 @@
 
 .slideshow-container .slide:hover span{
   display: table-cell;
+}
+
+.slide span{
+    
+}
+
+.learn-more{
+    
 }
