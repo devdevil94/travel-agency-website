@@ -1,0 +1,26 @@
+
+.packages-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.package-panel img{
+    margin-bottom: 0;
+}
+
+.package-panel{
+    border: 1px solid #B7245C;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 202px;
+}
+
+.panel-title{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #B7245C;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
