@@ -1,0 +1,25 @@
+.footer{
+    background: #002500;
+    margin-top: 20px;
+    display: flex;
+}
+
+#contact-container{
+    margin-right: 10px;
+}
+
+.address{
+    color: white;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.email h4{
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#msg{
+    height: 100px;
+}
