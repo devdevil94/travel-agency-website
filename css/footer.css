@@ -20,6 +20,8 @@
     margin-top: 5px;
 }
 
-#msg{
+textarea{
     height: 100px;
+    width: auto;
+    resize: none;
 }
