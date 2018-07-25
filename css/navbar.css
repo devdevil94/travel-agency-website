@@ -1,13 +1,10 @@
-body{
-    
-}
 
 #header{
 	background: #929982;
     height: 150px;
     width: 100%;
     padding: 0;
-    margin: 0;
+    margin-bottom: 15px;
     display: flex;
     
 }
