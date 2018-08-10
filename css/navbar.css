@@ -1,6 +1,6 @@
 
 #header{
-	background: #929982;
+	background: white;
     height: 150px;
     width: 100%;
     padding: 0;
@@ -9,21 +9,22 @@
     
 }
 
-.logo{
-	height: 150px;
-    
+#logo a{
+    color: black;
+    font-family: 'Merienda One', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .navbar{
     padding: 0;
     margin: 0;
     height: 150px;
-    flex: 6;
-    
 }
 
 .navbar ul{
-    width: 449px;
+    
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
@@ -31,12 +32,12 @@
     left: 100px;
     top: 121px;
 }
-
+/*
 .logo a img{
     margin: 0;
     padding: 0;
 }
-
+*/
 .nav-item{
 	padding: 5px;
 	display: inline-block;
@@ -45,6 +46,7 @@
 }
 
 ul .nav-item a{
+    font-family: 'Oswald', sans-serif;
 	text-decoration: none;
-    color: white;
+    color: black;
 }
