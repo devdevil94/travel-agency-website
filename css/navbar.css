@@ -27,16 +27,8 @@ header{
     padding: 0;
     margin: 0;
     flex: 2;
-    
-  /*  left: 190px;
-    top: 121px;*/
 }
-/*
-.logo a img{
-    margin: 0;
-    padding: 0;
-}
-*/
+
 .nav-item{
 	padding: 5px;
 	display: inline-block;
