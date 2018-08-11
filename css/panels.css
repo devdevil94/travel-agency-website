@@ -1,5 +1,5 @@
 
-.packages-container{
+#packages-container{
     display: flex;
     justify-content: space-between;
 }
