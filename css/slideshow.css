@@ -21,6 +21,22 @@
     height:300px;
 }
 
+.slideshow-container .slide .learn-btn{
+    width: auto;
+    height: auto;
+    padding: 5px 10px;
+    margin: 0px;
+    top: 45%;
+    right: 42%;
+    color: white;
+    border: 1px white solid;
+    text-decoration: none;
+    text-align: center;
+    background: #FE6412;
+    position: absolute;
+    /*display: none;*/
+}
+
 /* Next & previous buttons */
 .prev, .next {
     cursor: pointer;
@@ -38,13 +54,18 @@
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
+    right: 0;
     border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
+}
+
+#dots-container{
+    margin-top: 5px;
+    
 }
 
 /* The dots/bullets/indicators */
@@ -81,16 +102,6 @@
     to {opacity: 1}
 }
 
-.slideshow-container .slide .learn-btn{
-    /*display: none;*/
-    
-    
-    margin: auto;
-    
-    top: 50%;
-    
-    
-}
 
 .slideshow-container .slide:hover img {
     display: inline-block;
@@ -100,17 +111,6 @@
     display: table-cell;
 }
 
-.slideshow-container .slide .learn-btn{
-    width: 100%;
-    height: 30px;
-    padding: 0px;
-    margin: 0;
-    color: white;
-    border: 1px white solid;
-    text-decoration: none;
-    text-align: center;
-    background: #FE6412;
-    position: absolute;
-}
+
 
 
