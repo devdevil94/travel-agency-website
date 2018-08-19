@@ -1,27 +1,24 @@
 
-#packages-container{
-    display: flex;
-    justify-content: space-between;
-}
-
-.package-panel img{
-    margin: 0;
-    border-radius: 5px 5px 0 0;
-    width: 100%;
-    display: inline-block;
-}
-
-.package-panel h4{
-    position:absolute;
-    
+#packages-containers{
+   
 }
 
 .package-panel{
     border: 2px solid #8E806F;
     border-radius: 5px;
     margin-top: 5px;
-    width: 202px;
+    margin-bottom: 10px;
+    width: 300px;
     
+    
+}
+
+.package-panel img{
+    margin: 0;
+    border-radius: 3px 3px 0 0;
+    width: 100%;
+    height: 250px;
+    display: block;
 }
 
 .panel-title{
@@ -32,5 +29,21 @@
     margin-top: 0;
     margin-bottom: 0;
     text-align: center;
-    
 }
+/*
+#london{
+    flex: 2;
+}
+
+#los{
+    flex: 2;
+}
+
+#hk{
+    flex: 2;
+}
+
+#vietnam{
+    flex: 2;
+}
+*/
