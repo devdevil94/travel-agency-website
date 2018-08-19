@@ -1,15 +1,21 @@
-
-#packages-containers{
-   
+.container{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center
 }
+
 
 .package-panel{
     border: 2px solid #8E806F;
     border-radius: 5px;
     margin-top: 5px;
     margin-bottom: 10px;
-    width: 300px;
-    
+    margin-right: 5px;
+    margin-left: 5px;
+    height: auto;
+    flex: 2;
+    max-height: 50%;
     
 }
 
@@ -17,7 +23,7 @@
     margin: 0;
     border-radius: 3px 3px 0 0;
     width: 100%;
-    height: 250px;
+    height: auto;
     display: block;
 }
 
