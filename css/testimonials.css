@@ -1,18 +1,31 @@
 
-.testimonial{
-    
-    padding: 20px 40px;
+
+#testimonials{
+    padding: 5px 40px;
     background: #95CFBD;
+    border-radius: 25px;
+}
+
+.testimonial{
+    display: none;
+    text-align: center;
+}
+
+#testimonials h2{
+    margin-top: 10px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
 .quote{
     font-family: 'Playfair Display', serif;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .guest{
     font-family: 'Ranga', cursive;
+    font-size: 20px;
 }
 
 
@@ -24,6 +37,24 @@
     border-radius: 50%;
     
 }
-.hide{
-    display: none;
+
+#t-dots-container{
+    margin-top: 5px;
+    text-align:center;
+    
+}
+
+.t-dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #919A8D;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .t-dot:hover {
+    background-color: #22222B;
 }

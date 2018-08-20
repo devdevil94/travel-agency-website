@@ -48,16 +48,12 @@
 
 		<div class="slide fade">
 			<img src="./images/sultan-qaboos-mosque.jpg">
-			<div class="learn-btn fade">
-			    <a href="#">Learn More</a>
-			</div>
+            <a href="#" class="learn-btn fade">Learn More</a>
 		</div>
 
 		<div class="slide fade">
 			<img src="./images/wadi-bani-khalid.jpg">
-			<div class="learn-btn fade">
-			    <a href="#">Learn More</a>
-			</div>
+			<a href="#" class="learn-btn fade">Learn More</a>
 		</div>
 		<!-- Next and previous buttons -->
 		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -104,27 +100,34 @@
         <h2>Testimonials from our guests...</h2>
 	    <div class="testimonial">
 	       <img src="./images/business-guy.jpg" alt="">
-	       <p class="quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	       <p class="quote">"Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 	       <br>
-	       <span class="guest">-John Doe</span> 
+	       <span class="guest">-John</span> 
 	       </p>
 	       
 	    </div>
 	    
-	    <div class="testimonial hide">
+	    <div class="testimonial">
 	       <img src="./images/some-girl.jpg" alt="">
-	       <p class="quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-	       <span class="guest">-John Doe</span> 
+	       <p class="quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, ut labore et dolore magna aliqua."
+	       <br>
+	       <span class="guest">-Jane</span> 
 	       </p> 
 	    </div>
 	    
-	    <div class="testimonial hide">
+	    <div class="testimonial">
 	       <img src="./images/some-guy.jpg" alt="">
 	       <p class="quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-	       <span class="guest">-John Doe</span> 
+	       <br>
+	       <span class="guest">-Luke</span> 
 	       </p>
 	    </div>
 	    
+	    <div id="t-dots-container">
+            <span class="t-dot" onclick="currentTestimonial(1)"></span> 
+            <span class="t-dot" onclick="currentTestimonial(2)"></span> 
+            <span class="t-dot" onclick="currentTestimonial(3)"></span> 
+        </div>
 	</section>
 	
 </body>
@@ -154,4 +157,5 @@
 </footer>
 
 <script src="./scripts/slideshow.js"></script>
+<script src="./scripts/testimonials.js"></script>
 </html>
