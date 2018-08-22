@@ -1,18 +1,14 @@
-footer{
-    background: #002500;
-    margin-top: 20px;
-    padding: 20px;
-}
+
 
 #contact-container{
     display: flex;
 }
 
-.subscription{
+#subscription{
     flex: 2;
 }
 
-.subscription p{
+#subscription p{
     color: white;
     margin-bottom: 5px;
     margin-top: 0;
@@ -38,7 +34,13 @@ footer{
     opacity: 0.8;
 }
 
-.social{
+#copyright{
+    text-align: center;
+    color: white;
+}
+
+
+#social{
     flex: 2;
 }
 
