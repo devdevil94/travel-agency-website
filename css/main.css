@@ -3,3 +3,9 @@ body{
     max-width: 700px;
     margin: auto;
 }
+
+footer{
+    background: #002500;
+    margin-top: 20px;
+    padding: 20px;
+}
